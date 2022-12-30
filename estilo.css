@@ -1,0 +1,103 @@
+body {
+    background-image: url(imagem/nasssa.jpg);
+    background-size: cover;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.invisivel {
+    display: none;
+}
+
+#imagem {
+    height: 100%;
+}
+
+#img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pesquisa {
+    margin-bottom: 50px;
+}
+
+.bg {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-image: url(http://i.imgur.com/w16HASj.png);
+    background-size: 100% 100%;
+    background-position: top center;
+}
+
+.content {
+    margin-top: 20%;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+.InputStyle {
+    border-radius: 25px;
+    border: solid 1px white;
+    background: transparent;
+    width: 300px;
+    padding: 10px 20px;
+}
+
+
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    color: white;
+}
+
+.social-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 47%;
+}
+
+i {
+    padding: 5px;
+    color: white;
+
+}
+
+input,
+input:focus {
+    border: solid 1px white;
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: nones;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.secondLine {
+    font-weight: 350;
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+.firstLine {
+    font-size: 30px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .firstLine {
+        font-size: 20px;
+    }
+}
